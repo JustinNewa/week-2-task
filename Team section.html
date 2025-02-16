@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Team Section Project</title>
+    <style>
+        body {
+            text-align: center;
+        }
+        p {
+            color: gray;
+            font-weight: 400;
+        }
+        button{
+            padding: 10px 20px;
+            border: none;
+            font-size: 16px;
+            margin: 5px;
+        }
+        .active {
+            background-color:blue;
+            color: white;
+        }
+        .inactive {
+            background-color: white;
+            color: gray;
+            border: 1px solid grey
+        }
+        .team-container {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            margin-top: 20px;
+        }
+        .team-member {
+            border:2px solid grey;
+            padding: 15px;
+            border-radius: 8px;
+            width: 200px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+
+    <section>
+        <div>
+            <h1>Meet the Team</h1>
+            <p>Meet our team of professionals to serve you</p>
+        </div>
+
+        <div>
+            <button class="active" title="Go to about us page">About Us</button>
+            <button class="inactive" title="Go to contact page">Contact</button>
+        </div>
+
+        <div class="team-container">
+            <div class="team-member">
+                <img src="./female.member - Copy.avif" alt="Annette Black" height="150" width="150">
+                <p>Dog Trainer</p>
+                <h3>Annette Black</h3>
+                <p>&spades;</p>
+            </div>
+
+            <div class="team-member">
+                <img src="./male.member - Copy.jpg" alt="Wade Warren" height="150" width="150">
+                <p>Medical Assistant</p>
+                <h3>Wade Warren</h3>
+                <p>&clubs;</p>
+            </div>
+
+            <div class="team-member">
+                <img src="./female.member - Copy.avif" alt="Savannah Nguyen" height="150" width="150">
+                <p>President of Sales</p>
+                <h3>Savannah Nguyen</h3>
+               <p>&hearts;</p>
+            </div>
+
+            <div class="team-member">
+                <img src="./male.member - Copy.jpg" alt="Jenny Wilson" height="150" width="150">
+                <p>Nursing Assistant</p>
+                <h3>Jenny Wilson</h3>
+                <p>&diams;</p>
+            </div>
+        </div>
+    </section>
+
+</body>
+</html>
